@@ -1,4 +1,4 @@
-package com.demo.sampleproject.com.demo.sampleproject.datahandler.object;
+package com.demo.sampleproject.datahandler.object;
 
 import java.util.Calendar;
 

@@ -1,4 +1,4 @@
-package com.demo.sampleproject.com.demo.sampleproject.datahandler.util;
+package com.demo.sampleproject.datahandler.util;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.HttpStatus;
@@ -9,7 +9,6 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.net.URL;
 
 /**
  * Created by kevinpanuelos on 11/16/13.

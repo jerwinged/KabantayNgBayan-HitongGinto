@@ -1,4 +1,4 @@
-package com.demo.sampleproject.com.demo.sampleproject.datahandler.util;
+package com.demo.sampleproject.datahandler.util;
 
 import android.os.AsyncTask;
 
