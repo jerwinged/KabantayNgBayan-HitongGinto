@@ -8,9 +8,71 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity$PlaceholderFragment">
 
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/image"/>
+
     <TextView
-        android:text="@string/hello_world"
+        android:text=""
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/image"
+        android:id="@+id/name"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/redemption_code"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/image"
+        android:id="@+id/incentive"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/incentive"
+        android:id="@+id/button_validate"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Report"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_validate"
+        android:id="@+id/button_report"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The People's Fund"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_report"
+        android:id="@+id/button_peoplefund"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button_peoplefund"
+        android:id="@+id/button_history"
+        />
 
 </RelativeLayout>
