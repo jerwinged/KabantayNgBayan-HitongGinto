@@ -45,7 +45,7 @@
         android:text="Validate"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/incentive"
-        android:id="@+id/button_validate"
+        android:id="@+id/b_validate"
         />
 
     <Button
@@ -53,8 +53,8 @@
         android:layout_height="wrap_content"
         android:text="Report"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/button_validate"
-        android:id="@+id/button_report"
+        android:layout_below="@+id/b_validate"
+        android:id="@+id/b_report"
         />
 
     <Button
@@ -62,8 +62,8 @@
         android:layout_height="wrap_content"
         android:text="The People's Fund"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/button_report"
-        android:id="@+id/button_peoplefund"
+        android:layout_below="@+id/b_report"
+        android:id="@+id/b_peoplefund"
         />
 
     <Button
@@ -71,8 +71,8 @@
         android:layout_height="wrap_content"
         android:text="History"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/button_peoplefund"
-        android:id="@+id/button_history"
+        android:layout_below="@+id/b_peoplefund"
+        android:id="@+id/b_history"
         />
 
 </RelativeLayout>
