@@ -8,7 +8,7 @@ import java.io.InputStream;
 /**
  * Created by kevinpanuelos on 11/16/13.
  */
-public abstract class AsyncHttpHandler<N> extends AsyncTask<String, Integer, InputStream> {
+public class AsyncHttpHandler extends AsyncTask<String, Integer, InputStream> {
 
     @Override
     protected InputStream doInBackground(String... uri) {
@@ -20,7 +20,5 @@ public abstract class AsyncHttpHandler<N> extends AsyncTask<String, Integer, Inp
         }
         return httpResponse;
     }
-
-    protected abstract void onPostExecute(InputStream result);
 
 }

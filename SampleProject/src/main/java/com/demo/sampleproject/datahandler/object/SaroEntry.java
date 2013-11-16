@@ -20,6 +20,7 @@ public class SaroEntry {
     private String purpose;
     private String programCode;
     private String programDescription;
+    private String operatingUnit;
     private String objectCode;
     private String objectDescription;
     private long amount;
@@ -177,5 +178,13 @@ public class SaroEntry {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public String getOperatingUnit() {
+        return operatingUnit;
+    }
+
+    public void setOperatingUnit(String operatingUnit) {
+        this.operatingUnit = operatingUnit;
     }
 }

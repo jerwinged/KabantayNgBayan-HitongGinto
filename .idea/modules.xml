@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/KabantayNgBayan-HitongGinto.iml" filepath="$PROJECT_DIR$/KabantayNgBayan-HitongGinto.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleProject/SampleProject.iml" filepath="$PROJECT_DIR$/SampleProject/SampleProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/SampleProjectProject.iml" filepath="$PROJECT_DIR$/SampleProjectProject.iml" />
     </modules>
